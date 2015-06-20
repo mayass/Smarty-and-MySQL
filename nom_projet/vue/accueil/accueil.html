@@ -1,0 +1,16 @@
+<html>
+	<head></head>
+	<body>
+
+		{$v_msg}
+		<br/>
+
+		La liste de fruit que je préfère:
+		<br/>
+
+		{foreach from=$vy_fruits key=var_key item=var_item}
+			{$var_key}: {$var_item.fruit}
+		{/foreach}
+		
+	</body>
+</html>
